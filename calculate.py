@@ -1,15 +1,15 @@
 ### 사칙연산 함수 정의
 def plus(a,b):
-    return a+b
+    return int(a) + int(b)
 
 def minus(a,b):
-    return a-b
+    return int(a) - int(b)
 
 def mul(a,b):
-    return a*b
+    return int(a) * int(b)
 
 def divide(a,b):
-    return a/b
+    return int(a) / int(b)
 
 if __name__ == '__main__':
 
